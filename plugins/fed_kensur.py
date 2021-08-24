@@ -38,7 +38,7 @@ async def addf_(event):
     
     
 @ultroid_cmd(pattern=r"^\.delf(?: |$)(.*)", ignore_dualmode=True)
-async def addf_(event):
+async def delf_(event):
     chat_id = event.chat_id
     flist = udB.get("FLIST").split("\n")
     for one in flist:
